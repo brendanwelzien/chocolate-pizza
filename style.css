@@ -1,0 +1,64 @@
+body { 
+    width: 960px;
+    margin: auto;
+    list-style: none;
+
+}
+
+ul {
+    list-style-type: none;
+}
+header {
+    width: 960px;
+    height: 100px;
+    border-bottom: 6px dashed black;
+
+}
+
+#logo {
+    float: left;
+}
+
+#socialicons li {
+    float: right;
+    padding: 1px;
+ }  
+ 
+#socialicons li:nth-child(2) {
+    padding-left: 8px;
+}
+
+#instruct {
+    float: left;
+}
+
+#print {
+    float: right;
+
+}
+
+.pizza {
+    text-align: center;
+    margin: auto;
+}
+header > section {
+
+
+}
+
+header > section:first-child > ul > li {
+    display: inline-block;
+ 
+
+}
+
+header > section:first-child > img {
+    float: left;
+}
+
+header > section:first-child > ul > li:first-child {
+
+}
+
+header > section:last-child > ul > li:last-child {
+
